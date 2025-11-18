@@ -10,13 +10,8 @@ window#waybar {
 }
 
 .modules-right {
-	background-color: rgba(43, 48, 59, 0.5);
-	color: #ffffff;
 	transition-property: background-color;
 	transition-duration: 0.5s;
-	padding: 0 1rem;
-	border-radius: 4px;
-	margin-right: 1rem;
 }
 
 button {
@@ -28,74 +23,87 @@ button:hover {
 	box-shadow: inset 0 -3px #ffffff;
 }
 
+#idle_inhibitor {
+	padding: 0 1rem;
+	background-color: rgba(0, 128, 128, 0.6);
+	border-radius: 1rem;
+	color: #ffffff;
+	transition-property: box-shadow;
+	transition-duration: 0.2s;
+}
+
+#idle_inhibitor:hover {
+	box-shadow: inset 0 0 0 2px rgba(0, 128, 128, 1);
+}
+
 #pulseaudio {
 	padding: 0 1rem;
 	margin-left: 1rem;
 	background-color: rgba(0, 128, 128, 0.6);
-	border-radius: 4px;
+	border-radius: 1rem;
 	color: #ffffff;
 	transition-property: box-shadow;
 	transition-duration: 0.2s;
 }
 
 #pulseaudio:hover {
-	box-shadow: inset 0 -3px rgba(0, 128, 128, 1);
+	box-shadow: inset 0 0 0 2px rgba(0, 128, 128, 1);
 }
 
 #network {
 	padding: 0 1rem;
 	margin-left: 1rem;
 	background-color: rgba(0, 128, 128, 0.6);
-	border-radius: 4px;
+	border-radius: 1rem;
 	color: #ffffff;
 	transition-property: box-shadow;
 	transition-duration: 0.2s;
 }
 
 #network:hover {
-	box-shadow: inset 0 -3px rgba(0, 128, 128, 1);
+	box-shadow: inset 0 0 0 2px rgba(0, 128, 128, 1);
 }
 
 #cpu {
 	padding: 0 1rem;
 	margin-left: 1rem;
 	background-color: rgba(0, 128, 128, 0.6);
-	border-radius: 4px;
+	border-radius: 1rem;
 	color: #ffffff;
 	transition-property: box-shadow;
 	transition-duration: 0.2s;
 }
 
 #cpu:hover {
-	box-shadow: inset 0 -3px rgba(0, 128, 128, 1);
+	box-shadow: inset 0 0 0 2px rgba(0, 128, 128, 1);
 }
 
 #memory {
 	padding: 0 1rem;
 	margin-left: 1rem;
 	background-color: rgba(0, 128, 128, 0.6);
-	border-radius: 4px;
+	border-radius: 1rem;
 	color: #ffffff;
 	transition-property: box-shadow;
 	transition-duration: 0.2s;
 }
 
 #memory:hover {
-	box-shadow: inset 0 -3px rgba(0, 128, 128, 1);
+	box-shadow: inset 0 0 0 2px rgba(0, 128, 128, 1);
 }
 
 #clock {
 	padding: 0 1rem;
 	margin-left: 1rem;
 	background-color: rgba(0, 128, 128, 0.6);
-	border-radius: 4px;
+	border-radius: 1rem;
 	color: #ffffff;
 	transition-property: box-shadow;
 	transition-duration: 0.2s;
 }
 
 #clock:hover {
-	box-shadow: inset 0 -3px rgba(0, 128, 128, 1);
+	box-shadow: inset 0 0 0 2px rgba(0, 128, 128, 1);
 }
 
 #tray {
